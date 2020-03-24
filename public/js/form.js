@@ -198,6 +198,7 @@ class Form extends React.Component {
                     </div>
                     <button className={"" + this.state.matrixBool} onClickCapture={() => {
                         let obj = {
+                            tarih:new Date(),
                             il: this.state.ilData,
                             ilce: this.state.ilcetData,
                             hastane: this.state.hastaneData,
